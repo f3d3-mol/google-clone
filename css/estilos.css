@@ -5,3 +5,50 @@
     font-size: 62.5;
 }
 
+/* Estilos de header */
+
+.nav--header{
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.nav--header_ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    
+}
+
+.nav--header_ul li{
+    margin: 2px;
+    padding: 2px;
+
+}
+
+
+
+.nav--header_ul a{
+
+    text-decoration: none;
+    color: #000000;
+
+}
+nav .nav--header_ul .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    
+}
+
+.profile-photo img{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-top: 2px;
+    margin-right: 20px;
+
+}
