@@ -146,3 +146,41 @@ main .main-buttons button:hover{
     box-shadow: 0 1px 1px #000001;
     color: #222;
 }
+
+/* Estilos del footer */
+
+footer{
+    height: 50px;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    font-size: 13px;
+    background-color:#f2f2f2;
+    border-top:1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    display: flex;
+    padding-left: 0 ;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #5f6368;
+    margin: 10px;
+}
